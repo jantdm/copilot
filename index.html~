@@ -40,6 +40,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 14px;
 line-height: 20px;
 color: #333333;
+padding-bottom: 120px;
 }
 
 .container-fluid {
@@ -48,7 +49,7 @@ color: #333333;
 
 .listBox {
 height: auto;
-border: 1px solid #ccc;
+border: 0px solid #ccc;
 padding: 0px 6px;
 }
 
@@ -60,7 +61,7 @@ text-align: center;
 .listItem a {
 	height: 20px;
 	display: block;
-	background: #A7B5FF;
+	background: #6370B2;
 	padding: 10px 0px;
 	text-align: center;
 	text-decoration: none;
@@ -71,30 +72,30 @@ text-align: center;
 }
 
 .listItem a:hover {
-	background: #ddd;
+	background: #A7B5FF;
 }
 
 .container-fluid {
-max-width: 300px;
+max-width: 280px;
 }
 
 .logo {
-	width: 50%;
 	color: #777;
 	font-size: 16px;
 }
 
 .refresh {
-	width: 50%;
 	color: #777;
 	font-size: 10px;
-	display: inline;
-	text-align: right;
+	margin-top: 4px;
+	text-align: center;
+	text-decoration: underline;
 }
 
 .phoneSubmit {
 	display: inline;
 	margin-top: -30px;
+	padding: 6px 18px;
 }
 
 .noDisplay {
@@ -107,10 +108,15 @@ max-width: 300px;
 
 .textField {
 	margin: 0 0 !important;
+	width: 180px;
 }
 
 form {
 	margin: 10 0 !important;
+}
+
+.logo {
+	width: 300px;
 }
 
 -->
@@ -122,12 +128,9 @@ form {
 
 	<div class="container-fluid">
 			<div class="row-fluid">
-				<div class="span6">
-					<div class="logo">
-						CoPilot
-					</div>
-				</div>
-				<div class="span6">
+				<div class="span12">
+					<img class="logo" src="assets/img/pilotLogo.png">
+				<div class="span12">
 					<div class="refresh">
 						refresh lists
 					</div>
